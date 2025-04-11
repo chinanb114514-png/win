@@ -373,7 +373,7 @@ echo:             [5] Online KMS          - Windows / Office
 )
 echo:             __________________________________________________ 
 echo:
-echo:             [6] 检查激活状态
+echo:             [6] Check Activation Status
 echo:             [7] Change Windows Edition
 echo:             [8] Change Office Edition
 echo:             __________________________________________________      
