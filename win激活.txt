@@ -353,35 +353,35 @@ echo:
 if defined _hwidgo (
 call :dk_color3 %_White% "             [1] " %_Green% "HWID" %_White% "                - Windows"
 ) else (
-echo:             [1] 硬件id（可用激活）                - Windows10，11激活（汉化者zhoufei）
+echo:             [1] HWID                - Windows
 )
 if defined _ohookgo (
 call :dk_color3 %_White% "             [2] " %_Green% "Ohook" %_White% "               - Office"
 ) else (
-echo:             [2] Ohook（这个是激活Office的）               - Office激活
+echo:             [2] Ohook               - Office
 )
 if defined _tsforgego (
 call :dk_color3 %_White% "             [3] " %_Green% "TSforge" %_White% "             - Windows / Office / ESU"
 ) else (
-echo:             [3] TSforge（不知道有什么用）             - Windows / Office / ESU
+echo:             [3] TSforge             - Windows / Office / ESU
 )
-echo:             [4] KMS38（不知道什么用）              - Windows
+echo:             [4] KMS38               - Windows
 if defined _okmsgo (
 call :dk_color3 %_White% "             [5] " %_Green% "Online KMS" %_White% "          - Windows / Office"
 ) else (
-echo:             [5] Online KMS（这个也不知道什么用）          - Windows / Office（最好别乱点）
+echo:             [5] Online KMS          - Windows / Office
 )
 echo:             __________________________________________________ 
 echo:
-echo:             [6] 检查激活状态
-echo:             [7] 更改win版本
-echo:             [8] 更改Office版本
+echo:             [6] Check Activation Status
+echo:             [7] Change Windows Edition
+echo:             [8] Change Office Edition
 echo:             __________________________________________________      
 echo:
-echo:             [9] 解决
-echo:             [E] 额外
-echo:             [H] 帮助
-echo:             [0] 离开
+echo:             [9] Troubleshoot
+echo:             [E] Extras
+echo:             [H] Help
+echo:             [0] Exit
 echo:       ______________________________________________________________
 echo:
 call :dk_color2 %_White% "         " %_Green% "Choose a menu option using your keyboard [1,2,3...E,H,0] :"
